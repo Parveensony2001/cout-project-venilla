@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #dddcdc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 28vh;
+    position: relative;
+}
+.container{
+    width: 30vw;
+    display: block;
+    position: relative;
+    line-height: 15vh;
+    }
+.Counter{
+    text-align: center;
+    font-size: 17vh;
+    font-weight: 618;
+    color: #35153c;
+    }
+.coutervalue{
+    font-size: 20vh;
+    text-align: center;
+    color: #35153c;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.button{
+    background-color: transparent;
+    border: 1px solid #f8dfff;
+    border-radius: 3vh;
+    padding: 0vh 3vh;
+    font-size: small;
+    font-weight: 451;
+    color: #35153c;
+}
